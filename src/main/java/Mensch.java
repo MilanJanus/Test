@@ -28,7 +28,7 @@ public class Mensch {
     }
 
     public boolean istAlt() {
-        return (alter >= 40.0) ? true : false;
+        return alter >= 40.0;
     }
 
     @Override
